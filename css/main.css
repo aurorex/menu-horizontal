@@ -1,43 +1,42 @@
-body{
-font-family: sans-serif;
+body{/*selector padre*/
+font-family: sans-serif;/*clase de familia para las letras:sans-serif*/
 }
 
 
 
 ul{
 
-  margin:0;
-  padding: 0;
+  margin:0;/*le quitamos el margin*/
+  padding: 0;/*eliminamos el padding*/
   height:60px;
   background: #2e2e2a;
-  list-style: none;
+  list-style: none;/*eliminamos las viñetas de nuestra etiqueta ul*/
 
 
 }
 
 li{
-  display: inline-block;
-  line-height: 60px;
-  text-align: center;
+  display: inline-block;/*formara bloques de elementos que van a estar en una linea*/
+  line-height: 60px;/*hace un espacio entre lineas,permite cambiar el tamaño*/
+
 
 }
 
 a{
-  padding-left: 10px;
-  padding-right: 10px;
-  display: block;
-  list-style: none;
-  text-decoration: none;
-  color:#fff;
+  padding-left: 10px;/*tamaño de padding:10px,esto permitira centrar la letra de la etiqueta li*/
+  padding-right: 10px;/*tamaño de padding:10px,esto permitira centrar la letra de la etiqueta li*/
+  display: block;/*la etiqueta anchor actuará como elemento bloque*/
+  text-decoration: none;;/*eliminamos la linea que  se encuentra debajo de la palabra*/
+  color:#fff;/*color de la letra del enlace*/
 }
 
 
 
-a:hover{
+a:hover{/* seudo clase crea efecto de color diferente  al pasar el pulsor*/
   background: #f9a91a;
   color: #000;
 }
-a:active{
+a:active{/*genera cambios de color al momento del "click" que ejecute el usuario*/
   background: #e0e0d1;
   color:red;
 }
